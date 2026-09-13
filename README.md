@@ -1,4 +1,4 @@
-Project Name: Dev Stack
+Project Name: a5-dev-stack-builder
 
 Technology Used:
 i. React.js
