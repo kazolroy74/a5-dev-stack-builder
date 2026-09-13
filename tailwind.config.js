@@ -1,11 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-// ---------------------------------------------------------------------------
-// SINGLE SOURCE OF TRUTH FOR THE BRAND GRADIENT
-// Change these three stops and the whole UI re-themes: brand name in the
-// navbar, the gradient word in the hero heading, and every primary button
-// all read from this one place.
-// ---------------------------------------------------------------------------
 const brandGradientStops = {
   from: '#f97316', // orange
   via: '#ec1f8f', // pink
@@ -21,8 +15,6 @@ export default {
         brand: brandGradientStops,
       },
       backgroundImage: {
-        // Use this ONE utility everywhere the gradient is needed:
-        // `bg-brand-gradient` for buttons, `bg-brand-gradient bg-clip-text text-transparent` for text.
         'brand-gradient': brandGradient,
       },
     },
