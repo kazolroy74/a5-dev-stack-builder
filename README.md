@@ -8,6 +8,10 @@ iv. React-Toastify
 v. JSON (fetched via API-style fetch call)
 vi. Vite
 
+3 Features:
+i.	Interactive Stack Builder — Users can add technologies to their stack. The selected card is highlighted. 
+ii.	Duplicate Prevention & Toast Alerts — Duplicate technologies cannot be added. Toast messages show success or warning alerts. 
+iii.	API-style Data Fetching — Technology data is loaded using fetch(). A loading spinner appears while data is loading.
 
 i. What is JSX, and why is it used?
     JSX lets us write HTML-like code in JavaScript. It makes React UI code easier to write and read.
