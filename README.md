@@ -1,5 +1,12 @@
 Project Name: Dev Stack
 
+Technology Used:
+i. React.js
+ii. Tailwind CSS + DaisyUI
+iii. JavaScript (ES6+)
+iv. React-Toastify
+v. JSON (fetched via API-style fetch call)
+vi. Vite
 
 
 i. What is JSX, and why is it used?
